@@ -1,9 +1,9 @@
 public class CalculatorMain {
     public static void main(String[] args){
-        Calculator.addTwoNumbers(5,12, "+");
-        Calculator.addTwoNumbers(5,12, "-");
-        Calculator.addTwoNumbers(5,12, "*");
-        Calculator.addTwoNumbers(5,12, "/");
+        Calculator.calculateTwoNumbers(5,12, "+");
+        Calculator.calculateTwoNumbers(5,12, "-");
+        Calculator.calculateTwoNumbers(5,12, "*");
+        Calculator.calculateTwoNumbers(5,12, "/");
 
         CalculatorBonus.calculateSquarePerimeter(5);
         CalculatorBonus.calculateSquareArea(5);

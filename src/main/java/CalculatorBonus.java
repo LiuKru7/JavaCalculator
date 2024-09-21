@@ -38,6 +38,4 @@ public class CalculatorBonus {
         }
         return false;
     }
-
-
 }
